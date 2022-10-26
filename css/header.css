@@ -1,0 +1,39 @@
+header{
+    
+    height: 55px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    width: 1300px;
+    padding-left: 0;
+    align-items: center;
+    height: 30px;
+}
+a{
+    color: white;
+}
+.icon img{
+    width: 17px;
+    height: 17px;
+    margin: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 13px;
+    height: 15px;
+}
+.mainHeader{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    height: 55px;
+    width: 100%;
+    background: #000000CC;
+}
